@@ -38,6 +38,3 @@ switch(user){
 //Ternary Operator (Condition ? True : False)
 let raining = true;
 raining ? console.log('It is raining') : console.log('Not raining');
-
-
-

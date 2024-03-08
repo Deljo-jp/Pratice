@@ -41,5 +41,3 @@ console.log('You are allowed to apply for license');
 else {
 console.log('Not allowed');
 }
-
-
