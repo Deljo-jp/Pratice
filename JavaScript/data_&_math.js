@@ -10,7 +10,7 @@ console.log(n.getMonth());
 
 console.log(n.getDay());
 
-console.log(n.getTime());
+console.log(n.getTime()); 
 
 console.log(n.getHours());
 console.log(n.getMinutes());
@@ -45,4 +45,3 @@ console.log(Math.log(4));
 //Trignometry
 
 console.log(Math.sin(60));
-
