@@ -1,27 +1,27 @@
 
-let a = 19;
-console.log(a); 
+// let a = 19;
+// console.log(a); 
 
-// let a = 20; Cannot modify let
+// // let a = 20; Cannot modify let
 
-var b = 199;
-console.log(b);
+// var b = 199;
+// console.log(b);
 
-var b = 26;
-console.log(b);
+// var b = 26;
+// console.log(b);
 
-const c = 25; 
-console.log(c);
-// const c = 20; GIves a type error
+// const c = 2; 
+// console.log(c);
+// // const c = 20; GIves a type error
 
 
-// Block
+// // Block
 
-if(true) {
-    // Compound statement
-    var d = 76;
-    console.log(d);
-}
+// if(true) {
+//     // Compound statement
+//     var d = 76;
+//     console.log(d);
+// }
 
 
 // Block Scope
@@ -38,7 +38,28 @@ const z = 300;
     console.log(z);
 
 }
-// Cannot access let and const in block
+// Cannot access let and const outside block
 console.log(x);
 console.log(y);
 console.log(z);  
+
+
+const g = 24;
+function h() {
+    const g = 29;
+    console.log(g);
+}
+h();
+console.log(g);
+
+// illegal shadowing
+
+const su = 20;
+{
+    const su = 99;
+
+    {
+        const su = 298;
+        console.log(su);
+    }
+} 
